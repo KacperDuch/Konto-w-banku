@@ -1,9 +1,33 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30907.101
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "ClassLibrary1\ClassLibrary1.csproj", "{D0FD837B-1F33-4031-AF02-6DDC6107C956}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{35293072-4C28-463F-A311-8E817098CD8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{A8ECEB74-89B5-424B-86DA-CAE8AC8574C4}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0FD837B-1F33-4031-AF02-6DDC6107C956}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0FD837B-1F33-4031-AF02-6DDC6107C956}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0FD837B-1F33-4031-AF02-6DDC6107C956}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0FD837B-1F33-4031-AF02-6DDC6107C956}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35293072-4C28-463F-A311-8E817098CD8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35293072-4C28-463F-A311-8E817098CD8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35293072-4C28-463F-A311-8E817098CD8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35293072-4C28-463F-A311-8E817098CD8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8ECEB74-89B5-424B-86DA-CAE8AC8574C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8ECEB74-89B5-424B-86DA-CAE8AC8574C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8ECEB74-89B5-424B-86DA-CAE8AC8574C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8ECEB74-89B5-424B-86DA-CAE8AC8574C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
